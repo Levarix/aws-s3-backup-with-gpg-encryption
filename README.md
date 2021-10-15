@@ -1,5 +1,5 @@
 # aws-s3-backup-with-gpg-encryption
-Script to archive and encrypt or unarchive and decrypt Github dirs and push them to S3 bucket. Script use tar to archive and GPG with Passphrase to encrypt
+Script to archive and encrypt or unarchive and decrypt Github dirs and push them to S3 bucket. The script uses tar to archive and GPG with Passphrase to encrypt
 
 Before using the script, export REPO_GPG_PASS, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, S3_BUCKET_NAME variables.
 
